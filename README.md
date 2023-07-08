@@ -22,9 +22,7 @@ The repository is organized as follows:
 - `src/`: Contains the Java source code files for the game.
   - `SnakeGame.java`: Main game logic and entry point.
   - `GamePanel.java`: Class responsible for rendering graphics and handling user input.
-  - `Snake.java`: Implementation of the snake's behavior and movement.
-  - `Food.java`: Class representing the food that the snake needs to eat.
-- `assets/`: Contains game assets such as images and sounds.
+  - `GameFrame.java`: Class responsible for rendering UI.
 
 ## Usage
 
@@ -32,9 +30,9 @@ To run the game, follow these steps:
 
 1. Clone or download the repository.
 2. Open the project in your Java IDE.
-3. Build and run the `SnakeGame.java` file.
+3. Compile and run the `SnakeGame.java` file.
 4. Use the arrow keys to control the snake's movement.
-5. Eat the food and avoid collisions to score points and increase the snake's length.
+5. Eat the food and avoid collisions with the snake's body or boundaries to score points and increase the snake's length.
 
 ## Contribution
 
